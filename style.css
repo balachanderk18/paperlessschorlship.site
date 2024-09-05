@@ -1,0 +1,168 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.jumbotron {
+    background-color: #f8f9fa;
+    padding: 2rem 1rem;
+}
+
+.jumbotron h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #343a40;
+}
+
+.jumbotron p {
+    font-size: 1.25rem;
+    color: #6c757d;
+}
+
+.jumbotron .btn {
+    margin-top: 1rem;
+}
+
+#features {
+    margin-top: 50px;
+}
+
+#features h3 {
+    color: #000000;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#workflow h2, #contact h2 {
+    margin-bottom: 30px;
+    color: #343a40;
+}
+
+#workflow p {
+    color: #6c757d;
+    font-size: 1.1rem;
+}
+
+footer {
+    background-color: #f8f9fa;
+    color: #6c757d;
+}
+
+footer p {
+    margin: 0;
+}
+/* Hero Section Styling */
+/* Hero Section Styling */
+.hero-section {
+    background-color: #FFFFFF; /* White background */
+    color: #000000; /* Black text */
+    padding: 4rem 1rem;
+    border-bottom: 5px solid var(--border-color); /* Dark gray border */
+}
+
+.hero-section h1,
+.hero-section p {
+    color: #000000; /* Black text */
+}
+
+/* Get Started Button Styling */
+.btn-get-started {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #000000; /* Black background */
+    color: #FFFFFF; /* White text */
+    border: 2px solid #FFFFFF; /* White border */
+    border-radius: 30px; /* Oval shape */
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    position: relative;
+    margin-top: 1.5rem;
+}
+
+.btn-get-started:hover {
+    background-color: #FFFFFF; /* White background */
+    color: #000000; /* Black text on hover */
+}
+
+.btn-get-started::before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    width: 120%;
+    height: 120%;
+    background-color: #000000; /* Black background behind the oval */
+    z-index: -1;
+    border-radius: 0; /* Ensure the square background has no rounded edges */
+}
+/* Contact Section Styling */
+.contact-section {
+    background-color: #8BD5DE; /* Light cyan background */
+    color: #000000; /* Black text */
+    padding: 4rem 1rem;
+}
+
+.contact-section h2 {
+    color: #000000; /* Black color for headings */
+    font-weight: bold; /* Bold text */
+    margin-bottom: 2rem;
+}
+
+.contact-section p {
+    color: #000000; /* Black text for paragraphs */
+    margin-bottom: 2rem;
+}
+
+/* Form Styling */
+.contact-section form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #FFFFFF; /* White background for form */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #CCCCCC; /* Light gray border */
+    border-radius: 4px; /* Rounded corners */
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #1F4959; /* Teal border on focus */
+    outline: none; /* Remove default outline */
+}
+
+.btn-submit {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: #1F4959; /* Teal background */
+    color: #FFFFFF; /* White text */
+    border: none;
+    border-radius: 4px; /* Rounded corners */
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-submit:hover {
+    background-color: #000000; /* Black background on hover */
+}
